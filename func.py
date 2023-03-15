@@ -2,15 +2,24 @@
 def add(x, y):
     return x + y
 
+def sub(x, y):
+    return x - y
+
+def mult(x, y):
+    return x*y
+
+def exp(x, y):
+    return x**y
+
 # TODO: Add definitions of sub(), div(), mult(), exp(), as well as neg() and sqrt().
 #       neg() should return the negation of the given number, and sqrt() should
 #       return the square root of the given number. 
 
 def neg(x):
-    ... # fill here
+    return -x # fill here
 
 def sqrt(x):
-    ... # fill here
+    return x**0.5 # fill here
 
 # -------------------------------------- Task 2 -----------------------------------
 
